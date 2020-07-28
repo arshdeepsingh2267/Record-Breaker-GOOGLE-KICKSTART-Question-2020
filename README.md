@@ -24,7 +24,7 @@ Input
 
 8   #Number of Days
 
-1 2 0 7 2 0 2 0  
+1 2 0 7 2 0 2 0  #Visitors at each day
 
 6
 

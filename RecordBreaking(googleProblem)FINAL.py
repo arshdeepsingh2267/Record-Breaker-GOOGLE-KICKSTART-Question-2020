@@ -25,10 +25,18 @@ for x in range(tot_case):
         #First_Largest occurance in the Middle of index 0(min) and index (max) of arr[]
         for i in range(len(arr)-2):
             if arr[i] < arr[i+1] and arr[i+1] > arr[i+2]:
-                casearray.append(arr[i+1])
-                con_2=True
-                break
-       
+                if con_1==True:
+                    if casearray[0] == arr[i+1]:
+                        break
+                    else:    
+                        casearray.append(arr[i+1])
+                        con_2=True
+                        break
+                else:    
+                    casearray.append(arr[i+1])
+                    con_2=True
+                    break
+
         print(con_1)
         print(con_2)
 
@@ -62,6 +70,8 @@ for x in range(tot_case):
     string= "Case {} : {} Record Breaks".format(x+1,len(casearray))
     print(string)
     arr.clear()
+    con_1=False
+    con_2=False
     casearray.clear()
 
     

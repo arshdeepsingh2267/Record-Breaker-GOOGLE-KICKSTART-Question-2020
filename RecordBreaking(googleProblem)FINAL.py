@@ -13,7 +13,7 @@ for x in range(tot_case):
     
     if len(arr)<=1:
         casearray.append(data)
-        string= "Case {} : {} Record Breaks".format(x,len(casearray))
+        string= "Case {} : {} Record Breaks".format(x+1,len(casearray))
         print(string)
         break
     

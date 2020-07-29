@@ -21,22 +21,22 @@ Sample
 Input
  	 
 4   #Number of Cases
-
+------------------------
 8   #Number of Days
 
-1 2 0 7 2 0 2 0  #Visitors at each day
+1 2 0 7 2 0 2 0       #Visitors at each day
 
-6
+6      #Number of Days
 
-4 8 15 16 23 42
+4 8 15 16 23 42       #Visitors at each day
 
-9
+9      #Number of Days
 
-3 1 4 1 5 9 2 6 5
+3 1 4 1 5 9 2 6 5     #Visitors at each day
 
-6
+6      #Number of Days
 
-9 9 9 9 9 9
+9 9 9 9 9 9           #Visitors at each day
 
 
 Output
@@ -58,6 +58,9 @@ In Sample Case #2, only the last day is a record breaking day.
 
 
 In Sample Case #3, the first, the third, and the sixth days are record breaking days.
+
+
+-----------GOOD LUCK-----------
 
 
 In Sample Case #4, there is no record breaking day.

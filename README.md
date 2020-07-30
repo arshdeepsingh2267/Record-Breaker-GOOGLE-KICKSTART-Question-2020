@@ -1,4 +1,4 @@
-# Record-Breaker-GOOGLE-KICKSTART-Question-2020
+# Record-Breaker-GOOGLE-KICKSTART-Question-2020 (Solution using Python)
 
 Problem
 Isyana is given the number of visitors at her local theme park on N consecutive days. The number of visitors on the i-th day is Vi. A day is record breaking if it satisfies both of the following conditions:
